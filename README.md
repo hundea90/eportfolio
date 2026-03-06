@@ -1,6 +1,6 @@
  ePortfoloi
 
  
-CS-399 Computer Science Capstone
+CS-399 Computer Science Capstone.
 
  
