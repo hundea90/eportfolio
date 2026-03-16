@@ -4,17 +4,7 @@
 <div style="text-align: center;">
     <a href="https://spollard386.github.io/ePortfolio" title="ePortfolio Home Page"><img src="https://img.shields.io/badge/Home-ePortfolio-blue.svg?style=for-the-badge&logo=homeassistant" /></a>
 
-    <div style="text-align: left;">
-    <!-- Home / ePortfolio Badge -->
-    <a href="https://spollard386.github.io/ePortfolio" title="ePortfolio Home Page">
-        <img src="https://img.shields.io" />
-    </a>
-
-    <!-- Page Builder / GitHub Pages Badge -->
-    <a href="https://spollard386.github.io/ePortfolio" title="GitHub Pages Home Page">
-        <img src="https://img.shields.io" />
-    </a>
-</div>
+  
  <a href="https://spollard386.github.io/ePortfolio" title="GitHub Pages Home Page"><img src="https://img.shields.io/badge/page builder-GitHub Pages-green.svg?style=for-the-badge&logo=homeassistant" /></a>
 </div>
 
@@ -49,7 +39,16 @@ markdown
 |
 [![Page Builder](https://img.shields.io🌐-PAGE_BUILDER-grey?style=for-the-badge&logoColor=white)](link-to-builder)
 [![GitHub Pages](https://img.shields.ioGITHUB_PAGES-9cf?style=for-the-badge&logoColor=white)](https://pages.github.com)
+<div style="text-align: left;">
+    <!-- Home / ePortfolio Badge -->
+    <a href="https://spollard386.github.io/ePortfolio" title="ePortfolio Home Page">
+        <img src="https://img.shields.io" />
+    </a>
 
-## Self Assessment
+    <!-- Page Builder / GitHub Pages Badge -->
+    <a href="https://spollard386.github.io/ePortfolio" title="GitHub Pages Home Page">
+        <img src="https://img.shields.io" />
+    </a>
+</div>
  
  
