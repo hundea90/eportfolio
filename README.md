@@ -2,25 +2,24 @@
 # Amare Hunde
 # CS499 Computer Science Capstone  
 
-<div style="text-align: center;">
-    
+<div style="text-align: left;">
+    <!-- Introduction / Home -->
     <a href="https://spollard386.github.io/ePortfolio" title="Introduction">
         <img src="https://img.shields.io" />
     </a>
     
-    
-    <a href="https://spollard386.github.io" title="Software Design and Engineering">
+    <!-- Software Design and Engineering -->
+    <a href="https://spollard386.github.io/ePortfolio" title="Software Design and Engineering">
         <img src="https://img.shields.io" />
     </a>
 
-    
-    <a href="https://spollard386.github.io" title="Algorithms and Data Structures">
+    <!-- Algorithms and Data Structures -->
+    <a href="https://spollard386.github.io/ePortfolio" title="Algorithms and Data Structures">
         <img src="https://img.shields.io" />
     </a>
 
-
-    <a href="https://spollard386.github.io" title="Databases">
+    <!-- Databases -->
+    <a href="https://spollard386.github.io/ePortfolio" title="Databases">
         <img src="https://img.shields.io" />
     </a>
 </div>
- 
