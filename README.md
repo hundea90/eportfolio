@@ -25,5 +25,15 @@
 <div align="center">
     <a href="https://spollard386.github.io" title="Databases"><img src="https://img.shields.io" /></a>
 </div>
+markdown
+# CS499 Computer Science Capstone
+
+[![Home](https://img.shields.io🏠-HOME-grey?style=for-the-badge&logoColor=white)](index.md)
+[![ePortfolio](https://img.shields.ioEPORTFOLIO-007acc?style=for-the-badge&logoColor=white)](eportfolio.md)
+|
+[![Page Builder](https://img.shields.io🌐-PAGE_BUILDER-grey?style=for-the-badge&logoColor=white)](link-to-builder)
+[![GitHub Pages](https://img.shields.ioGITHUB_PAGES-9cf?style=for-the-badge&logoColor=white)](https://pages.github.com)
+
+## Self Assessment
  
  
