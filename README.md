@@ -3,6 +3,18 @@
 # CS499 Computer Science Capstone  
 <div style="text-align: center;">
     <a href="https://spollard386.github.io/ePortfolio" title="ePortfolio Home Page"><img src="https://img.shields.io/badge/Home-ePortfolio-blue.svg?style=for-the-badge&logo=homeassistant" /></a>
+
+    <div style="text-align: left;">
+    <!-- Home / ePortfolio Badge -->
+    <a href="https://spollard386.github.io/ePortfolio" title="ePortfolio Home Page">
+        <img src="https://img.shields.io" />
+    </a>
+
+    <!-- Page Builder / GitHub Pages Badge -->
+    <a href="https://spollard386.github.io/ePortfolio" title="GitHub Pages Home Page">
+        <img src="https://img.shields.io" />
+    </a>
+</div>
  <a href="https://spollard386.github.io/ePortfolio" title="GitHub Pages Home Page"><img src="https://img.shields.io/badge/page builder-GitHub Pages-green.svg?style=for-the-badge&logo=homeassistant" /></a>
 </div>
 
