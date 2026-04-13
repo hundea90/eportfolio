@@ -8,7 +8,7 @@
         
 # Introduction
 
-# Software Desin
+# Software Design
 Software Design and Engineering  
  The artifact selected for this enhancement is a full-stack development module created six months ago. Full-stack development involves building both the frontend (client-side/user interface) and the backend (server-side/database) of applications. Full-stack development ensures smooth data communication between the front and back ends through APIs, managing databases, and debugging across the entire stack.  The front end that the user sees and interacts with, including HTML and CSS. The backend includes the server, application logic, and databases such as Node.js, MySQL, and MongoDB. The most common and professional stack to use for this description is JavaScript for the front end and Node.js for the back end. 
 The source code used synchronous form submissions which often froze the user interface while waiting for server responses. By refactoring a monolithic, synchronous process into a modular, asynchronous workflow, I demonstrate how modern applications are useful to maintain performance and responsiveness.  I chose to include this specific topic in my ePortfolio because it serves as a connection for basic functional programming and professional-grade software engineering.
