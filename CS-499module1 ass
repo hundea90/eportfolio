@@ -1,0 +1,145 @@
+CS 499 Module One Assignment Template
+
+Complete this template by replacing the bracketed text with the relevant information.
+
+I.	Self-Introduction: Address all of the following questions to introduce yourself.
+
+A.	How long have you been in the Computer Science program?
+I have graduated with a degree in Electromechanical engineering and have been in the computer science program for two years and two months.
+
+B.	What have you learned while in the program? List three of the most important concepts or skills you have learned.
+I have gained software design skills, such as object-oriented programming principles and how to structure code, as well as maintainability and scalability. Also developed a good understanding of selecting the right data structure to improve program efficiency. Also, I gain experience managing, querying, and acquiring data using systems such as MySQL and MongoDB. Another benefit I gain from learning is the ability to identify vulnerabilities and defensive programming techniques, which is very important for secure coding.
+
+C.	Discuss the specific skills you aim to demonstrate through your enhancements to reach each of the course outcomes.
+I plan to explain efficient software design and engineering through refactoring existing code, maintainability, and scalability. I will practice my database skills by refining schemas and improving data validation to ensure strong security. Furthermore, I will implement unit testing and enhanced error handling to ensure the application follows industry best practices.  
+
+D.	How do the specific skills you will demonstrate align with your career plans related to your degree?
+I plan to become an embedded systems engineer, combining my previous experience in electromechanical engineering with computer science skills. For my future career, the C++, Python, and Java courses will be a great contribution to developing my coding and testing skills. To be an efficient market competitor, the ability to analyze and fix hardware/software issues, including debugging, data structures, and circuitry knowledge, must be acquired. 
+
+E.	How does this contribute to the specialization you are targeting for your career?
+The embedded systems require a deep understanding of how software interacts directly with physical hardware. Therefore, I apply all learned skills, combining these computer science competencies with my previous background to build efficient, proficient embedded systems and software control. An understanding of resource management and hardware-level optimization along with the ability to manage data flow and system testing is very important in limited-memory embedded environments.
+
+
+II.	ePortfolio Set Up: 
+
+A.	Submit a screen capture of your ePortfolio GitHub Pages home page that clearly shows your URL. 
+i.	You already have a repository in GitHub where you uploaded projects in previous courses. Your ePortfolio will reside in GitHub but can link to work at other sites, such as Bitbucket.
+
+B.	Use the GitHub Pages link in the Resource section for directions on:
+i.	How to create your GitHub website and publish code to GitHub Pages 
+ii.	Issues, such as adding links to other sites 
+
+C.	Paste a screenshot of your GitHub Pages home page with your URL clearly showing in the space below.
+
+GitHub screenshot of ePortfolio and GitHub link.
+
+ 
+https://github.com/hundea90. 
+
+III.	Enhancement Plan: 
+
+A.	Category One: Software Engineering and Design
+i.	Select an artifact that is aligned with the software engineering and design category and explain its origin. Submit a file containing the code for the artifact you choose with your enhancement plan. 
+1.	Artifact name:  Client/Server Development, “ The Animal Shelter(Grazioso Salvare)”.
+            Original course: CS-340.
+2.	Artifact name:   Full-stack development "Travlr Getaways application".
+Original course: CS-465
+
+ii.	Describe a practical, well-illustrated plan for enhancement in alignment with the category, including a pseudocode or flowchart that illustrates the planned enhancement. 
+
+For this CS-499 project, I chose artifacts, CS-340: Client/Server Development and  CS-465 full-stack development "Travlr Getaways application".  CS-340: Client/Server Development, “ The Animal Shelter(Grazioso Salvare)”, a dashboard that is ideal for this project. The CS-340 client/server Development courses cover all three requirements, such as a Python CRUD module(software design), data filtering and geolocation logic(algorithms), and a MongoDB NoSQL database. I  will explain my learning experience in computer science and all necessary implementation enhancements to this client/server project effectively. The primary plan is Software design, which involves refactoring the Python CRUD module to adhere to the Single Responsibility principle and to integrate custom exception handling. I will remove hardcoded database credentials and implement them as environment variables following proper code development practices. Also I will refactor the create and update methods in the validation layer. This ensures only data that meets requirements such as age  not be negative and required strings for animal breeds. This kind of modification showcases my ability to design secure software and prevent unauthorized access.
+
+Category 1 Client/Server Development enhancement  flow diagram
+ 
+
+The CS-465 full-stack development "Travlr Getaways application" enhancement illustrates refactoring the source code to focus on improving modularity. I will replace the current manual set time out based login. This update ensures the frontend guides only on a verified server response and improves system reliability. Additionally, I will refactor the service layer by extracting authentication logic into a dedicated AuthenticationService, adhering to the Single Responsibility Principle.
+
+Category 1 Full-stack Development enhancement flow diagram.
+
+ 
+ 
+
+iii.	Explain how the planned enhancement will demonstrate specific skills and align with course outcomes. 
+
+a.	Identify and describe the specific skills you will demonstrate that align with the course outcome.
+
+I will demonstrate this by refactoring my Python code into modular, object-oriented structures and by applying software design principles to ensure maintainability and scalability. Also, apply a high-security code to protect sensitive data and optimize system resources.
+
+b.	Select one or more of the course outcomes below that your enhancement will align with.
+
+I prioritize design, development, and delivery of professional-quality software solutions to satisfy specific project requirements. This must require my ability use computer science technical skills to solve computational problems. In addition, I demonstrate a highly secure code design and software development solution.
+
+
+B.	Category Two: Algorithms and Data Structures
+
+i.	Select an artifact that is aligned with the algorithms and data structures category and explain its origin. Submit a file containing the code for the artifact you choose with your enhancement plan. You may choose work from the courses listed under Category One.
+
+1.	Artifact name:  Client/Server Development, “ The Animal Shelter(Grazioso Salvare)”.
+            Original course: CS-340
+
+2.	Artifact name:   CS-465 full-stack development "Travlr Getaways application"
+Original course: CS-465
+
+
+ii.	Describe a practical, well-illustrated plan for enhancement in alignment with the category, including a pseudocode or flowchart that illustrates the planned enhancement.
+For category two, I chose the same CS-340 Client/Server Development. In the second enhancement I will improve the AnimalShelter class's data retrieval capabilities by implementing a custom sorting algorithm. This Algorithm and data structure enhancement mainly focuses on advanced search and result sorting. The original code depends on basic database queries, but the modified version includes a quick sorting algorithm search results by age or intake date after pulled from the database. This second enhancement showcases my ability to manipulate data structures in memory to provide a more custom user experience without increasing the load on the database server. 
+
+For the CS-465 second category, I will implement Data Validation to ensure high data integrity. I will demonstrate checks by integrating regular expression validation for email inputs and custom logic gates for date-range verification. Furthermore, I will implement a Data Normalization Algorithm to process incoming JSON payloads from the MongoDB API. These enhancements illustrate applying well-founded algorithmic principles to solve data-handling problems and optimize client-server communication efficiency.
+
+Category 2 Full-stack Development enhancement flow diagram
+
+ 
+
+iii.	Explain how the planned enhancement will demonstrate specific skills and align with course outcomes. 
+
+a.	Identify and describe the specific skills you will demonstrate to align with the course outcome.
+I will explain quicksorting as more efficient for a large animal shelter dataset and handling data structures in the application layer. Also, I will explain load balancing and resource allocation in an efficient data processing environment. This shows that I can manage memory effectively after the data leaves the database.
+
+b.	Select one or more of the course outcomes listed under Category One that your enhancement will align with.
+
+I will apply my learning skills to implement a sorting algorithm to this animal shelter record practical problem. In addition to this, demonstrate an ability to use data structures and algorithms to solve existing problems. This will be the best solution to ensure the animal shelter software is effective.
+C.	Category Three: Databases
+i.	Select an artifact that is aligned with the databases category and explain its origin. Submit a file containing the code for the artifact you choose with your enhancement plan. You may choose work from the courses listed under Category One.
+
+1.	Artifact name:  Client/Server Development, “ The Animal Shelter(Grazioso Salvare)”.
+Original course: CS-340.
+     2. Artifact name:   CS-465 full-stack development "Travlr Getaways application"
+Original course: CS-465
+
+ii.	Describe a practical, well-illustrated plan for enhancement in alignment with the category, including a pseudocode or flowchart that illustrates the planned enhancement.
+The third enhancement focuses on advanced database management techniques within MongoDB. I will create a new get_shelter_stats method that uses a multi-stage pipeline, such as $match, $group, and $count to generate real-time analytics for animal shelters. This can be the average age of dogs or the number of animals by breed. This demonstrates my proficiency in leveraging server-side database tools to perform complex data analysis efficiently.
+Category 3 Client/Server Development enhancement flow diagram
+
+ 
+
+The third category, CS-365 full-stack development database enhancement plan, centers on strengthening the Security Mindset and refining the NoSQL schema in MongoDB. I will refactor the Mongoose User Schema to implement a secure credential storage system, moving away from plaintext or insecure password storage. I also plan to expand the database's relational complexity. By securing sensitive data and ensuring the privacy of user data, this work directly addresses the need to mitigate potential vulnerabilities.
+
+
+
+Category 3 full-stack development enhancement flow diagram.
+
+ 
+
+iii.	Explain how the planned enhancement will demonstrate specific skills and align with course outcomes. 
+
+a.	Identify and describe the specific skills you will demonstrate that align with the course outcome.
+By implementing category three enhancement, which uses the MongoDB aggregation framework and indexing, I will explain how to use a multi-stage pipeline application layer with the database engine. Addtionaly I will demonstrate the ability to perform complex data analysis.
+
+
+b.	Select one or more of the course outcomes listed under Category One that your enhancement will align with.
+By implementing aggregate pipelines, I will explain the standard level of NoSQL systems as well as ensure the software remains fast as the dataset grows.
+
+
+
+IV.	ePortfolio Overall Skill Set
+
+A.	Accurately describe the skill set to be illustrated by the ePortfolio overall.
+i.	Skills and outcomes planned to be illustrated in the code review
+In the next module two code reviews, I will explain my project software quality identifying bugs checking for security risks and ensuring maintainability. My demonstration skills include technical proficiency, effective communication, and collaboration, while outcomes include improved code, shared knowledge, and consistent standards. The revised project code will be easy to read, well-documented, and adheres to style guides. It must demonstrate that validating the code solves the intended problem and meets requirements. Overall code review, with additional focus on security performance testing.
+
+ii.	Skills and outcomes planned to be illustrated in the narratives
+
+I will show my ability to interpret source code and express the value of planning improvements in the narratives of code review. In this narrative, I demonstrate my technical skills, including the ability to identify architectural flaws, detect security vulnerabilities, and evaluate code efficiency against industry standards. I will demonstrate a deep understanding of software design principles and develop technical skills. The key outcomes are the successful communication of each detail modification, which is well understood. The outcomes of these narratives focus on creating a clear professional explanation for my audience.
+iii.	Skills and outcomes planned to be illustrated in the professional self-assessment
+
+The professional assessment narrative enables me to evaluate the source code and identify areas for professional refinement. It highlights the ability to take responsibly developed code and adapt to evolving technological standards.
