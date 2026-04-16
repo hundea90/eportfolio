@@ -51,4 +51,4 @@ The process begins with the generation of a unique salt which is a very importan
 The workflow then reaches a critical Relational Check. The system queries the database to see if a pre-existing audit log exists for this specific user email. If the answer is No, the process reaches its End, having successfully created a standalone account. However, if the answer is Yes, the logic flows into the Update Reference step. If the answer is No, the process reaches its End, having successfully created a standalone account.
 This enhancement demonstrates my ability to employ industry standards, utilizing JWT and Bcrypt for secure authentication, as well as protecting user credentials through salting and hashing. I set a goal to implement a secure data persistence workflow. By successfully linking the Angular front-end to a MongoDB database through a hashed authentication layer, I met the  outcome of protecting user data via salting and hashing. Including asynchronous data handling and NoSQL database integrations. 
 
-# Project
+
