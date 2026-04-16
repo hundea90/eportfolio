@@ -1,0 +1,70 @@
+<!-- 1. ADD SEARCH BAR AT THE TOP -->
+<div class="container mt-3">
+    <!-- Search Row -->
+  <div class="row mb-4">
+    <div class="col-md-8">
+      <!-- We added #searchInput here -->
+      <input 
+        #searchInput
+        type="text" 
+        class="form-control" 
+        placeholder="Search by name or resort..."
+        (keyup.enter)="onSearch(searchInput.value)"
+      />
+    </div>
+    <div class="col-md-4">
+      <!-- Search Button -->
+      <button 
+        (click)="onSearch(searchInput.value)" 
+        class="btn btn-primary me-2">
+        Search
+      </button>
+      
+      <!-- Clear Button -->
+      <button 
+        (click)="clearSearch(searchInput)" 
+        class="btn btn-outline-secondary">
+        Clear
+      </button>
+    </div>
+  </div>
+
+
+    <div *ngIf="isLoggedIn()" class="row mb-3">
+        <div class="col">
+            <button (click)="addTrip()" class="btn btn-primary">Add Trip</button>
+        </div>
+    </div>
+
+    <!--  existing card loop -->
+    <div class="row">
+        <!-- I added the mt-4 and mb-4 classes here for spacing -->
+        <div *ngFor="let trip of trips" class="col-md-4 mb-4">
+          <app-trip-card [trip]="trip"></app-trip-card>
+            
+            
+        </div>
+    </div>
+
+    <!-- 2. ADD PAGINATION AT THE BOTTOM -->
+    <div class="row mt-4 pb-5">
+        <div class="col text-center">
+            <button 
+                (click)="prevPage()" 
+                [disabled]="currentPage === 1" 
+                class="btn btn-secondary mr-2">
+                Previous
+            </button>
+
+            <span class="mx-3">Page <strong>{{ currentPage }}</strong></span>
+
+            <button 
+                (click)="nextPage()" 
+                [disabled]="trips.length < pageSize" 
+                class="btn btn-secondary ml-2">
+                Next
+            </button>
+            <p class="text-muted mt-2"><small>{{ message }}</small></p>
+        </div>
+    </div>
+</div>
