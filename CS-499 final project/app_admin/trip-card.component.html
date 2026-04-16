@@ -1,0 +1,19 @@
+<div class="card h-100">
+  <div class="card-header font-weight-bold">{{ trip.name }}</div>
+  <img src="assets/images/{{trip.image}}" alt="trip thumbnail" class="card-img-top">
+  <div class="card-body d-flex flex-column">
+    <h6 class="card-subtitle mb-2 text-muted">{{ trip.resort }}</h6>
+    <p class="card-subtitle mt-3 mb-3 text-muted">
+      {{trip.length}} | {{trip.perPerson | currency:'USD':true}} per person
+    </p>
+    <p class="card-text flex-grow-1" [innerHTML]="trip.description"></p>
+
+    
+      <div *ngIf="isLoggedIn()" class="mt-auto pt-3">
+      <div class="d-flex justify-content-between">
+        <button (click)="editTrip(trip)" class="btn btn-info flex-fill me-2">Edit</button>
+        <button (click)="deleteTrip(trip)" class="btn btn-danger flex-fill">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
